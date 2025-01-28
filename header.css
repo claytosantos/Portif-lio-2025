@@ -1,0 +1,58 @@
+/* header.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  width: 1200px;
+  background-image: url(/icons/Background_Intro.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+}
+
+.background {
+  background-image: url(/icons/Background_Intro.png);
+  position: relative;
+  text-align: center;
+}
+
+.background .img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.background h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.background p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+
+header h1 {
+  color: #e2e4e9;
+}
+header p {
+  color: #e2e4e9;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #16181D;
+}

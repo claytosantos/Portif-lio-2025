@@ -1,0 +1,40 @@
+/* utility.css */
+.grid {
+    display: grid;
+}
+
+.grid-cols-2{
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-flow-col{
+    grid-auto-flow: column;
+}
+
+.gap-16{
+    gap: 16px;
+}
+.gap-24{
+    gap: 24px;
+}
+
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+

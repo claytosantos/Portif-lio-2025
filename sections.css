@@ -1,0 +1,27 @@
+/* sections.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 colunas */
+    grid-template-rows: repeat(3, auto); /* 3 linhas */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 20px; /* Espaçamento interno */
+    font-style: 
+    color; #E2E4E9
+}
+
+.grid-item {
+    border: 1px solid #ccc; /* Borda opcional */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo */
+    background-color: #ffffff;
+}
+
+.grid-item img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o container */
+    border-radius: 8px; /* Bordas arredondadas para a imagem */
+}
+.grid-item .services {
+    text-align: center;
+    color: #ccc;
+}
