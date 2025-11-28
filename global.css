@@ -1,62 +1,47 @@
-/* global.css */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  align-items: center;
-  text-align: center;
-  color: #E2E4E9;
-  background-color: #16181D;
-}
-:root{
-  --brand-color-light:#16181D
-  --brand-color-dark:#0d0e11
-  --bg-color:#0D0E11
-  --stroke-color: 
-  --text-color-primary:#E2E4E9
-  --text-color-secundary:#C0C4CE
-
-
-
-  --font-family: "Archivo",serif;
-  --h1: 800 24px/135% var(--font-family);
-  --h2: 800 16px/140% var(--font-family);
-  --h3: 800 14px/140% var(--font-family)
-  --text-span: 600 14px/140% var(--font-family);
-  --text: 400 16px/140% var(--font-family);
-  --text-sm: 400 14px/160% var(--font-family);
-
+ 
 }
 
-
-
-
-.contact{
-  /*background-image: url('/icons/Background_Contacts.png');*/
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: arial,sans-serif;
-  margin:0;
-  height: 100vh;
-  background-color: #333;
-  align-items: center;
-}
-#Veja {
-
-  color:#E2E4E9
+.body {
+  background-color: var(--color-background-card);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  line-height: 1.6;
+  background-color: var(--color-surface);
+  background-color: var(--color-surface);
 }
 
-#destaque {
-  color: red; /* Cor vermelha */
-  background-color: #16181D;
+:root {
+  --brand-primary-color: #E3646E;
+  --border-card2: #3996DB;
+  --border-card5: #82BC4F;
+  --border-card3: #EABD5F;
+  --color-background-card: #292C34;
+  --color-surface: #16181D;     
+  --color-border: #878EA1;      
+  --color-text: #E2E4E9;        
+  --color-text-light: #C0C4CE;
+  --text-contact: #BB72E9;
+
+  --font-family: "Asap", "Inconsolata", "Maven Pro";
+
+  --text-lg-size: 56px;
+  --text-lg-line: 120%;
+  --text-lg-weight: 700;
+
+  --text-md-size: 24px;
+  --text-md-line: 120%;
+  --text-md-weight: 700;
+
+  --text-sm-size: 16px;
+  --text-sm-line: 120%;
+  --text-sm-weight: 700;
+
+  --text-regular-size: 20px;
+  --text-regular-line: 120%;
+  --text-regular-weight: 400;
 }
 
-/*.destaque {
-  color: red; /* Cor vermelha */
-  font-weight: bold; /* Negrito (opcional) */
-  background-image: url('/icons/Background_Intro.png');
-  padding: 2px 5px; /* Espaçamento interno (opcional) */
-  border-radius: 4px; /* Bordas arredondadas (opcional) */
-  height: 100vh;
-}*/

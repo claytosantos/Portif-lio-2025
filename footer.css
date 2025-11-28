@@ -1,0 +1,69 @@
+/*.footer{
+    background: 280px;
+    background-image:url('thumbs/Background_Footer.png');
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}*/
+   
+/* ...existing code... */
+.footer{
+    font-size: var(--text-md-size);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent; /* não esconda a imagem */
+    width: 100%;
+    min-height: 280px; /* garante área visível para a imagem */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text, #fff);
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+/* pseudo-elemento com a imagem atrás do conteúdo */
+.footer::before {
+    content: "";
+    position: absolute;
+    inset: 0; /* top:0; right:0; bottom:0; left:0; */
+    background-image: url('./thumbs/Background_Contacts.png'); /* confirme nome exato do arquivo */
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* garante que o conteúdo fique acima da imagem */
+.footer > * {
+    position: relative;
+    z-index: 1;
+}
+/* ...existing code... */
+.rodape{
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-contact);
+    margin-bottom: 10px;
+}
+
+.footer p{
+    align-items: center;
+    text-align: center;
+    font-size: var(--text-sm-size);
+    color: var(--color-text-light);
+}
